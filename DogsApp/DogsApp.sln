@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DogsApp", "DogsApp\DogsApp.csproj", "{65D5960F-D50D-4A16-A025-21E7F6D1D94B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{286D231F-AD34-4304-9130-5D735609E6A1} = {286D231F-AD34-4304-9130-5D735609E6A1}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DogsApp.Infrastructure", "DogsApp.Infrastructure\DogsApp.Infrastructure.csproj", "{286D231F-AD34-4304-9130-5D735609E6A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogsApp.Core", "DogsApp.Core\DogsApp.Core.csproj", "{1102DA7C-8D78-4F81-8748-CD7C045654C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65D5960F-D50D-4A16-A025-21E7F6D1D94B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65D5960F-D50D-4A16-A025-21E7F6D1D94B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65D5960F-D50D-4A16-A025-21E7F6D1D94B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65D5960F-D50D-4A16-A025-21E7F6D1D94B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{286D231F-AD34-4304-9130-5D735609E6A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{286D231F-AD34-4304-9130-5D735609E6A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{286D231F-AD34-4304-9130-5D735609E6A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{286D231F-AD34-4304-9130-5D735609E6A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1102DA7C-8D78-4F81-8748-CD7C045654C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1102DA7C-8D78-4F81-8748-CD7C045654C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1102DA7C-8D78-4F81-8748-CD7C045654C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1102DA7C-8D78-4F81-8748-CD7C045654C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1C790C6-849C-4D05-B029-FC38A9F60035}
+	EndGlobalSection
+EndGlobal
